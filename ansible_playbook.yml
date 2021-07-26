@@ -1,6 +1,4 @@
 - hosts: all
-    become: true
-
     tasks:
     - name: gather ec2 facts
       action: ec2_facts
