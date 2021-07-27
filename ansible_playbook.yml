@@ -1,5 +1,5 @@
 ---
-# This playbook will install Apache Web Server
+# Playbook will install Apache Web Server
 - name: httpd_deploy_to_aws_ami
   hosts: all
   tasks:
